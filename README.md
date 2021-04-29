@@ -44,44 +44,44 @@ for(var i=0;i < as.length;i++){
 ```
 
 ### Manipular o texto
-as.textContent; ==> ver o texto
-as.innerText = " " ==> Muda o texto
++ as.textContent; ==> ver o texto
++ as.innerText = " " ==> Muda o texto
 
 ### Manipular Estilos
-as.style.backgroundColor = "gray"
-as.style.border = "7px solid red"
++ as.style.backgroundColor = "gray"
++ as.style.border = "7px solid red"
 
 ### ParentElements - Elementos Pai
 as.parentNode ==> elemento Pai
 as.parentElement ==> elemento Pai
 
 ### ChildElements - Elementos Filho
-as.childNodes ==> Pega elementos filhos incluindo espaços
-as.children ==> Pega Elementos filhos
-as.childElementCount ==> Conta Elementos filhos
-as.lasstChild ==> Pega último filho
-as.firstChild ==> Pega primeiro filho
-as.remove() ==> remove elemento
++ as.childNodes ==> Pega elementos filhos incluindo espaços
++ as.children ==> Pega Elementos filhos
++ as.childElementCount ==> Conta Elementos filhos
++ as.lasstChild ==> Pega último filho
++ as.firstChild ==> Pega primeiro filho
++ as.remove() ==> remove elemento
 
 ### SiblingElements - Elementos Irmãos
-as.nextSibling ==> Pega o próximo elemento irmão
-as.nextElementSibling ==> Pega o próximo elemento irmão
-as.previousSibling ==> Pega elemento irmão anterior
++ as.nextSibling ==> Pega o próximo elemento irmão
++ as.nextElementSibling ==> Pega o próximo elemento irmão
++ as.previousSibling ==> Pega elemento irmão anterior
 
 ### Criar Elementos
-as.createElement ==> cria elementos
++ as.createElement ==> cria elementos
 
 ### Afiliar Elemento
-as.append("") ==> Afillia elemento depois do 'as'
-as.prepend("") ==> Afillia elemento antes do 'as'
-as.inserBefore(sp1,sp2) ==> Insere entre sp1 e sp2
++ as.append("") ==> Afillia elemento depois do 'as'
++ as.prepend("") ==> Afillia elemento antes do 'as'
++ as.inserBefore(sp1,sp2) ==> Insere entre sp1 e sp2
 
 ### Atributos
-as.setAttribute("id","my-ID") ==> Define um atributo
-as.removeAttribute("id") ==> Remove o atributo
-as.getAttribute("id") ==> Pega um Atributo
++ as.setAttribute("id","my-ID") ==> Define um atributo
++ as.removeAttribute("id") ==> Remove o atributo
++ as.getAttribute("id") ==> Pega um Atributo
 
 
 ### Funcão
-window.addEventListner("tipo do evento",funcao) ==> Função que ouve eventos
++ window.addEventListner("tipo do evento",funcao) ==> Função que ouve eventos
 ----------------------------------------------------------------------------
