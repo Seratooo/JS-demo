@@ -105,14 +105,51 @@ Layout Fluído
 + `em` - Multiplicado pelo valor do tamanho do elemento Pai
 + `rm` - Multiplicado pelo valor do tamanho do root
 
-### Regras
+### Regras Media Queries
+
+Precisamos incluir o seguinte codigo para habilitar
+
+```html
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+```
 Neste caso, todo css colocado entre parentesses
 só estará disponível quando o largura máxima da tela
 for igual ou inferior a 768px
 ```css
 @media (max-width: 768px){
-
+#form h3 {
+    font-size: 2rem;
+  }
 }
 ```
+
+### HTML Media Attrib.
+Posso utilizar o atribuito media no link do meu HTML, ao importar um arquivo css, usando as propriedades da mesma forma que usaria na regra @media do css.
+```html
+<link 
+    rel="stylesheet"
+    href="responsive.css" 
+    media="screen and (max-width: 768px)"
+/>
+
+<link rel="stylesheet" href="print.css" media="print">
+```
+
 ### Imagens
 + `<pictures>` Possibilita aplicar diferentes imagens em tamanhos diferentes
+ou seja Usamos a tag `<picture>` para que as imagens sejam responsivas.
+
+```html
+<picture class="image" alt="Imagem">
+    <source media="(min-width: 768px)" 
+        srcset="https://i.ytimg.com/vi/GykTLqODQuU/maxresdefault.jpg">
+    <source media="(min-width: 320px)" 
+        srcset="https://i.ytimg.com/vi/GykTLqODQuU/hqdefault.jpg">
+    <source media="(min-width: 10px)" 
+        srcset="https://i.ytimg.com/vi/GykTLqODQuU/mqdefault.jpg">
+
+    <img 
+        src="https://i.ytimg.com/vi/GykTLqODQuU/hqdefault.jpg" 
+        alt="Imagem" />
+</picture>
+```
