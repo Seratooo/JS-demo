@@ -1,0 +1,88 @@
+*{
+  /* display: flex;
+  flex-direction: column; */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /*overflow: hidden;*/
+}
+
+header{
+  width: 100%;
+  /* padding-bottom: 8px; */
+  margin: 0 auto;
+  text-align: center;
+  background-color: blue;
+  color: white;
+  height: 4rem;
+}
+main {
+  display: flex;
+  flex-direction: row;
+}
+main section.content{
+  padding: 5px;
+  width: 30rem;
+  height: 20rem;
+  margin-top: 7rem;
+  background-color: #666;
+  margin-right: auto;
+  margin-left: 7rem;
+}
+main section.content div{
+  color: whitesmoke;
+  padding: 4px;
+  border: 2px solid blue;
+}
+
+main section.form{
+  width: 30rem;
+  height: 20rem;
+
+  margin-top: 7rem;
+  background-color: #c4c4c4;
+  margin-left: auto;
+  margin-right: 7rem;
+}
+
+#formulario fieldset{
+  height: 18.5rem;
+}
+#formulario fieldset legend{
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+#numero,#DataNasc{
+  padding: 6px;
+  width: 21rem;
+  border: none;
+  border-radius: 0;
+}
+#DadosPessoais input{
+  padding: 6px;
+  width: 10rem;
+  border: none;
+  border-radius: 0;
+}
+#GeneroEmail input,select{
+  padding: 6px;
+  width: 10.4rem;
+  border: none;
+  border-radius: 0;
+}
+
+button{
+  padding: 5px;
+  width: 5rem;
+  height: 2.4rem;
+  border: none;
+  border-radius: 0;
+  margin: 10px auto 1px;
+  background-color: #c3f3d6;
+  transition: 0.5s;
+}
+button:hover{
+  background-color: blue;
+  color: #c3f3d6;
+}

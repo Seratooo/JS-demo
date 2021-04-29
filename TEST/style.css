@@ -1,0 +1,68 @@
+
+*{
+  box-sizing: border-box;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  font-size: 18px;
+  padding: 15px 2px 15px 10px;
+  position: relative;
+  background-color: whitesmoke;
+  user-select: none;
+  cursor: pointer;
+  transition: 0.2s;
+}
+ul li:hover{
+  background-color: white;
+}
+ul li.checked{
+  text-decoration: line-through;
+  background-color: #666;
+  color: white;
+}
+.close{
+
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 15px 20px 15px 20px;
+  transition: 0.2s;
+}
+
+.close:hover{
+  background-color: tomato;
+  color: white;
+}
+
+.header{
+  background-color: tomato;
+  padding: 30px 40px;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  
+}
+input{
+  margin: 0;
+  border:none;
+  border-radius: 0;
+  font-size: 16px;
+  width: 75%;
+  padding: 10px;
+  float: left;
+}
+.addItem{
+  padding: 10px;
+  width: 25%;
+  background-color: #666;
+  float: left;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 0;
+}

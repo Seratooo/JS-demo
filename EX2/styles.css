@@ -1,0 +1,39 @@
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: gray;
+}
+div.content{
+  margin-top: 7rem;
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+  align-items: center;
+  justify-content: center;
+}
+
+#table table{
+  table-layout: fixed;
+  background-color: #ededed;
+  border-collapse: collapse;
+  width: 30rem;
+  height: 15rem;
+}
+#table table,tr,td,th{
+  padding: 4px;
+  border: 1px solid black;
+}
+#form{
+  background-color:burlywood ;
+  width: 30rem;
+  height: 15rem;
+}
+#form fieldset{
+  height: 13.5rem;
+}
+#form fieldset legend{
+  display: flex;
+  flex-direction: column;
+}

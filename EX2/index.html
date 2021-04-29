@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css">
+  <title>Exercicio 2</title>
+</head>
+<body>
+      <div class="content">
+        <section id="table">
+          <table id="AddLinha">
+            <tr>
+             <th colspan="3">Listagem dos Candidatos</th>
+            </tr>
+            <tr>
+              <td>Nome</td>
+              <td>Sexo</td>
+              <td>Documento</td>
+            </tr>
+            
+            <tr>
+              <td>Fulano</td>
+              <td>M</td>
+              <td>12021212@121LAS</td>
+            </tr>
+          </table>
+        </section>
+
+        <section id="form">
+          <fieldset>
+            <legend>Formulario do Candidato</legend>
+            <legend>
+              Nome
+              <div>
+                <input type="text" id="Nome">
+                <input type="text">
+              </div>
+            </legend>
+            <legend>
+              Data de Nascimento
+              <input type="date">
+            </legend>
+            <legend>
+              Sexo
+              <select name="" id="">
+                <option value="M">Masculino</option>
+                <option value="F">Feminino</option>
+              </select>
+            </legend>
+            <legend>
+              Identidade
+              <div>
+                <select name="" id="">
+                  <option value="">BI</option>
+                  <option value="">NSS</option>
+                </select>
+                <input type="text" id="identidade">
+              </div>
+            </legend>
+            <button type="button" onclick="reg()">Enviar</button>
+          </fieldset>
+        </section>
+      </div>
+      <script src="./script.js"></script>
+</body>
+</html>
