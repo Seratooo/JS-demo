@@ -20,7 +20,7 @@ display: block;
 
 ### Percorrer Elementos
 
-```html
+```javascript
 let as = document.getElemetByTagName("")
 for(a of as){
 
