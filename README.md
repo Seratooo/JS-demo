@@ -85,3 +85,32 @@ as.parentElement ==> elemento Pai
 ### Funcão
 + window.addEventListner("tipo do evento",funcao) ==> Função que ouve eventos
 ----------------------------------------------------------------------------
+# RESPONSIVIDADE
+### Unidades css
+
+Layout Fixo
++ `px` - Pixels (Fixo)
+
+Layout Fluído
++ `%` - Percentagem (Adaptável)
++ `auto` - Automática (Adaptável)
++ `vh` - ViewPort Heigth (altura visivel da tela)
++ `vw` - ViewPort Width (comprimento visivel da tela)
+
+### Textos Fixos
++ `1px` = 0.75pt
++ `16px` = 12pt
+
+### Textos Fluídos
++ `em` - Multiplicado pelo valor do tamanho do elemento Pai
++ `rm` - Multiplicado pelo valor do tamanho do root
+
+### Regras
+Neste caso, todo css colocado entre parentesses
+só estará disponível quando o largura máxima da tela
+for igual ou inferior a 768px
+```css
+@media (max-width: 768px){
+
+}
+```
