@@ -107,7 +107,7 @@ Layout Fluído
 
 ### Regras
 Neste caso, todo css colocado entre parentesses
-só estará disponível quando o largura máxima da tela
+só estarão disponíveis quando o largura máxima da tela
 for igual ou inferior a 768px
 ```css
 @media (max-width: 768px){
