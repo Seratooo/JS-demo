@@ -11,12 +11,12 @@ O box model funciona melhor com elementos com
 display: block;
 ---------------------------------------------------------------------------
 # DOM - Document Object Model
-consele.dir(document) - Ver elemento sem ser renderizado
-document.getELementById('') - Pega um elemento pelo id
-document.getElementByClassName("") - Pega coleção de elementos por Class
-document.getElementByTagName("") - Pega coleção de elementos por TagName
-document.querySelector("seletor do css"); - Pega um elemento type selector
-document.querySelectorAll("") - Pega coleção de elementos type selector
++ consele.dir(document) - Ver elemento sem ser renderizado
++ document.getELementById('') - Pega um elemento pelo id
++ document.getElementByClassName("") - Pega coleção de elementos por Class
++ document.getElementByTagName("") - Pega coleção de elementos por TagName
++ document.querySelector("seletor do css"); - Pega um elemento type selector
++ document.querySelectorAll("") - Pega coleção de elementos type selector
 
 ### Percorrer Elementos
 
