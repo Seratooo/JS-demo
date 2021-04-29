@@ -28,7 +28,7 @@ for(a of as){
 ```
 ou
 
-```html
+```javascript
 let as = document.querySelectorAll("")
 as.forEach(a => {
 
@@ -36,7 +36,7 @@ as.forEach(a => {
 ```
 ou
 
-```html
+```javascript
 let as = document.getElementByClass("")
 for(var i=0;i < as.length;i++){
 
