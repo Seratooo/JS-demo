@@ -113,7 +113,7 @@ Precisamos incluir o seguinte codigo para habilitar
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 ```
 Neste caso, todo css colocado entre parentesses
-só estarão disponíveis quando o largura máxima da tela
+só estará disponível quando o largura máxima da tela
 for igual ou inferior a 768px
 ```css
 @media (max-width: 768px){
