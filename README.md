@@ -114,3 +114,5 @@ for igual ou inferior a 768px
 
 }
 ```
+### Imagens
++ `<pictures>` Possibilita aplicar diferentes imagens em tamanhos diferentes
