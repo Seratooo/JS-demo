@@ -1,4 +1,6 @@
-# BOX MODEL
+# EXERCÍCIOS PRÁTICOS COM JS
+
+## BOX MODEL
 
 Pilares do Box Model 
 
